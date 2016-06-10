@@ -1,0 +1,6 @@
+*.exe
+*.dll
+*.pdb
+Lesson8_Part2/Lesson8_Part2/bin*/
+Lesson8_Part2/Lesson8_Part2/obj*/
+Lesson8_Part2/Lesson8_Part2/Properties*/
