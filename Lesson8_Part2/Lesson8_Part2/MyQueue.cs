@@ -8,10 +8,6 @@ namespace Lesson8_Part2
 {
     public class MyQueue<T> : Buffer<T>, IMyQueue<T>
     {
-        public T Dequeue()
-        {
-            throw new NotImplementedException();
-        }
 
         public void Enqueue(T addValueToQueue)
         {
