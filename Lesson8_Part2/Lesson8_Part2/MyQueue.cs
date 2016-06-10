@@ -8,5 +8,29 @@ namespace Lesson8_Part2
 {
     public class MyQueue<T> : Buffer<T>, IMyQueue<T>
     {
+        public T Dequeue()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Enqueue(T addValueToQueue)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void IsEmpty()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void IsFull()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Peek()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

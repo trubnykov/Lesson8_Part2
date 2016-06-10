@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace Lesson8_Part2
 {
-    class MyStack : Buffer
+    public class MyStack<T> : Buffer<T>, IMyStack<T>
     {
+        public override void IsEmpty()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void IsFull()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Peek()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
